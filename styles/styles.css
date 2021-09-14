@@ -6,19 +6,26 @@
 .navigation-menu{
     display: flex;
     justify-content: space-evenly;
-    background-color: aliceblue;
+    background-color: pink;
     align-items: center;
     padding: 10px;
 }
 .navigation-menu > img{
-    width: 50px;
-    border-radius: 50%;
+    width: 100px;
+    /* border-radius: 50%; */
 }
 .nav-items{
     list-style-type: none;
-    text-align: center;
 }
 .nav-links > a{
     text-decoration: none;
-
+    color: black;
+    padding: 20px;
+}
+/* hover effects */
+.nav-links > a:hover{
+    color: burlywood;
+}
+.navigation-menu:hover{
+    cursor: pointer;
 }
